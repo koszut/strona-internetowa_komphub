@@ -33,7 +33,7 @@ CREATE TABLE `oceny` (
 
 
 INSERT INTO `oceny` (`review_id`, `product_id`, `user_id`, `ocena`, `komentarz`, `kiedy_dodany`) VALUES
-(10, 7, 1, 5, 'ekstra bluza', '2025-11-28 05:53:44');
+(10, 7, 1, 5, 'dobry sprzet', '2026-04-28 05:53:44');
 
 -- --------------------------------------------------------
 
@@ -91,7 +91,7 @@ CREATE TABLE `uzytkownicy` (
 
 
 INSERT INTO `uzytkownicy` (`user_id`, `email`, `haslo_hash`, `login`, `rola`, `data_utworzenia`) VALUES
-(1, 'piotrblaszczyk67@gmail.com', '$2y$10$HVKqax1oEH6zLymZRz3qNO7drRRmx0s9.AP2PsJJ.15edDnzUTbNm', 'Piotrasss', 'admin', '2025-11-28 02:05:09');
+(1, 'piotrblaszczyk67@gmail.com', '$2y$10$hGg8mO6c1EVyBnm0ut34E.ZDythuccihsH2fAZp1kXB.MDfb0kcJa', 'Piotrasss', 'admin', '2026-04-23 02:05:09');
 
 
 
